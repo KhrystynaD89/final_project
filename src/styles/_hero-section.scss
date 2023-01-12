@@ -1,0 +1,144 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/background_hero_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .hero--characters {
+    position: absolute;
+  }
+//-----------DOROTHYTOTO-IMG-----------
+  .dorothytoto {
+    top: 45%;
+    left: 25%;
+  }
+  .dorothytoto img {
+    width: 90%;
+  }
+  //-----------SCARECROW-IMG-----------
+  .scarecrow {
+    top: 30%;
+    left: 65%;
+  }
+  .scarecrow img {
+    width: 120%;
+  }
+  //-----------TINWOODMAN-IMG-----------
+  .timwoodman {
+    top: 45%;
+    left: 1.5%;
+  }
+  .timwoodman img {
+    width: 32%;
+  }
+  //-----------COWARDLYLION-IMG-----------
+  .cowardlylion {
+    top: 41%;
+    left: 30%;
+  }
+  .cowardlylion img {
+    width: 20%;
+  }
+
+  @media (min-width: 590px) {
+    //-----------DOROTHYTOTO-IMG-----------
+    .dorothytoto {
+      top: 45%;
+      left: 25%;
+    }
+    .dorothytoto img {
+      width: 75%;
+    }
+    //-----------SCARECROW-IMG-----------
+    .scarecrow {
+      top: 30%;
+      left: 62%;
+    }
+    .scarecrow img {
+      width: 90%;
+    }
+    //-----------TINWOODMAN-IMG-----------
+    .timwoodman {
+      top: 50%;
+    }
+    //-----------COWARDLYLION-IMG-----------
+    .cowardlylion {
+      top: 38%;
+      left: 27%;
+    }
+    .cowardlylion img {
+      width: 25%;
+    }
+  }
+
+  @media (min-width: 830px) {
+    //-----------DOROTHYTOTO-IMG-----------
+    .dorothytoto {
+      top: 40%;
+      left: 28%;
+    }
+    .dorothytoto img {
+      width: 65%;
+    }
+    //-----------SCARECROW-IMG-----------
+    .scarecrow {
+      top: 20%;
+      left: 58%;
+    }
+    .scarecrow img {
+      width: 75%;
+    }
+    //-----------TINWOODMAN-IMG-----------
+    .timwoodman img {
+      width: 38%;
+    }
+    .cowardlylion {
+      top: 38%;
+      left: 27%;
+      
+    }
+    //-----------COWARDLYLION-IMG-----------
+    .cowardlylion img {
+      width: 25%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    //-----------DOROTHYTOTO-IMG-----------
+    .dorothytoto {
+      top: 29%;
+      left: 32%;
+    }
+    .dorothytoto img {
+      width: 84%;
+    }
+    //-----------SCARECROW-IMG-----------
+    .scarecrow {
+      top: 17%;
+      left: 63%;
+    }
+    .scarecrow img {
+      width: 92%;
+    }
+    //-----------TINWOODMAN-IMG-----------
+    .timwoodman {
+      top: 52%;
+      left: 4%;
+    }
+    .timwoodman img {
+      width: 60%;
+    }
+    //-----------COWARDLYLION-IMG-----------
+    .cowardlylion {
+      top: 33%;
+      left: 27%;
+    }
+    .cowardlylion img {
+      width: 37%;
+    }
+  }
+}
