@@ -1,0 +1,408 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+body {
+  
+  background-image: radial-gradient(
+      circle at 62% 39%,
+      rgba(30, 30, 30, 0.05) 0%,
+      rgba(30, 30, 30, 0.05) 8%,
+      transparent 8%,
+      transparent 16%,
+      transparent 16%,
+      transparent 28%,
+      transparent 28%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 19% 61%,
+      rgba(201, 201, 201, 0.01) 0%,
+      rgba(201, 201, 201, 0.01) 59%,
+      transparent 59%,
+      transparent 60%,
+      transparent 60%,
+      transparent 99%,
+      transparent 99%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 15% 5%,
+      rgba(186, 186, 186, 0.05) 0%,
+      rgba(186, 186, 186, 0.05) 9%,
+      transparent 9%,
+      transparent 79%,
+      transparent 79%,
+      transparent 92%,
+      transparent 92%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 64% 49%,
+      rgba(51, 51, 51, 0.08) 0%,
+      rgba(51, 51, 51, 0.08) 22%,
+      transparent 22%,
+      transparent 50%,
+      transparent 50%,
+      transparent 96%,
+      transparent 96%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 53% 21%,
+      rgba(0, 0, 0, 0.04) 0%,
+      rgba(0, 0, 0, 0.04) 21%,
+      transparent 21%,
+      transparent 80%,
+      transparent 80%,
+      transparent 89%,
+      transparent 89%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 14% 91%,
+      rgba(49, 49, 49, 0.04) 0%,
+      rgba(49, 49, 49, 0.04) 35%,
+      transparent 35%,
+      transparent 63%,
+      transparent 63%,
+      transparent 71%,
+      transparent 71%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 42% 78%,
+      rgba(64, 64, 64, 0.02) 0%,
+      rgba(64, 64, 64, 0.02) 56%,
+      transparent 56%,
+      transparent 75%,
+      transparent 75%,
+      transparent 80%,
+      transparent 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 76% 85%,
+      rgba(69, 69, 69, 0.06) 0%,
+      rgba(69, 69, 69, 0.06) 53%,
+      transparent 53%,
+      transparent 68%,
+      transparent 68%,
+      transparent 97%,
+      transparent 97%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(143, 249, 177), rgb(62, 146, 80));
+}
+
+main {
+  background-image: url(../images/Wizard_of_Oz/Background/poppies_background1.png), url(../images/Wizard_of_Oz/Background/poppies_background2.png);
+ 
+  background-position: left, right;
+  background-repeat: repeat-y;
+  background-size: 34rem;
+}
+/* --------------HERO SECTION--START------------ */
+.hero {
+  position: relative;
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius: 25%;
+              
+
+  background-image: url(./images/background_hero_image.png);
+  background-size: cover;
+  background-position: center;
+
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero--characters {
+  position: absolute;
+}
+
+.dorothytoto {
+  top: 45%;
+  left: 25%;
+}
+.dorothytoto img {
+  width: 90%;
+}
+.scarecrow {
+  top: 30%;
+  left: 65%;
+}
+.scarecrow img {
+  width: 120%;
+}
+.timwoodman {
+  top: 45%;
+  left: 1.5%;
+}
+.timwoodman img {
+  width: 32%;
+}
+.cowardlylion {
+  top: 41%;
+  left: 30%;
+}
+.cowardlylion img {
+  width: 20%;
+}
+@media (min-width: 590px) {
+  .dorothytoto {
+    top: 45%;
+    left: 25%;
+  }
+  .dorothytoto img {
+    width: 75%;
+  }
+  .scarecrow {
+    top: 30%;
+    left: 62%;
+  }
+  .scarecrow img {
+    width: 90%;
+  }
+  .timwoodman {
+    top: 50%;
+  }
+  .cowardlylion {
+    top: 38%;
+    left: 27%;
+  }
+  .cowardlylion img {
+    width: 25%;
+  }
+}
+@media (min-width: 830px) {
+  .dorothytoto {
+    top: 40%;
+    left: 28%;
+  }
+  .dorothytoto img {
+    width: 65%;
+  }
+  .scarecrow {
+    top: 20%;
+    left: 58%;
+  }
+  .scarecrow img {
+    width: 75%;
+  }
+
+  .timwoodman img {
+    width: 38%;
+  }
+  .cowardlylion {
+    top: 38%;
+    left: 27%;
+  }
+  .cowardlylion img {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .dorothytoto {
+    top: 29%;
+    left: 32%;
+  }
+  .dorothytoto img {
+    width: 84%;
+  }
+  .scarecrow {
+    top: 17%;
+    left: 63%;
+  }
+  .scarecrow img {
+    width: 92%;
+  }
+  .timwoodman {
+    top: 52%;
+    left: 4%;
+  }
+  .timwoodman img {
+    width: 60%;
+  }
+  .cowardlylion {
+    top: 33%;
+    left: 27%;
+  }
+  .cowardlylion img {
+    width: 37%;
+  }
+}
+/* --------------HERO SECTION--END------------ */
+
+/* -----------PORTFOLIO SECTION START----------- */
+
+.portfolio {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 1.5em;
+  
+  /* background-image: url(../images/Wizard_of_Oz/Background/poppies_background1.png);
+ 
+  background-position: left;
+  background-repeat: no-repeat; */
+}
+
+/* PORTFOLIO CONTAINER AND BRICKS */
+.portfolio_container {
+  border-radius: 43% 49% 74% 35% / 31% 40% 33% 47%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+.portfolio_container--brick {
+  /* Don't give height and width to a flexbox child or the content (images and text) will not fit inside this boxy */
+
+  box-shadow: inset 5px 0px 50px 20px rgba(63, 63, 63, 0.8),
+    18px 12px 50px -6px #000000;
+
+  /* The first two values set the offset of the shadow, the third value is the amount of blur and the last value is the spread of the shadow. */
+  margin: 1.5em;
+  background-image: url(./images/brick_background_2.jpeg);
+}
+.portfolio_container--brick h3 {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 2.5rem;
+  display: inline-block;
+}
+
+.portfolio_container--brick img {
+  display: block;
+  margin: 1em 0;
+}
+
+.portfolio_container--brick a {
+}
+
+/* ------first_brick------ */
+
+.first_brick {
+  padding: 1.5em 6em;
+  margin-left: 10em;
+  flex-basis: 24em;
+  /* I added flex-basis here because I don't want my brick to change width when there are more content in my text section; and with flex-basis width is fixed */
+  border-radius: 37% 29% 29% 32% / 55% 34% 49% 47%;
+}
+.first_brick img {
+  margin: 1em 0;
+  width: 25em;
+  height: 18em;
+  border-radius: 37% 29% 29% 32% / 55% 34% 49% 47%;
+}
+
+/* ------second_brick------ */
+.second_brick {
+  padding: 1.5em 12em;
+  flex-basis: 41em;
+  border-radius: 32% 26% 43% 20% / 68% 40% 43% 29%;
+}
+.second_brick img {
+  margin: 1em 0;
+  width: 40em;
+  height: 18em;
+  border-radius: 32% 26% 43% 20% / 68% 40% 43% 29%;
+}
+
+/* ------third_brick------ */
+.third_brick {
+  padding: 1.5em 10em;
+  flex-basis: 35em;
+  border-radius: 29% 48% 43% 40% / 88% 51% 65% 62%;
+}
+.third_brick img {
+  margin: 1em 0;
+  width: 40em;
+  height: 18em;
+  border-radius: 29% 48% 43% 40% / 88% 51% 65% 62%;
+}
+/* ------fourth_brick------ */
+.fourth_brick {
+  padding: 1.5em 10em;
+  margin-right: 9em;
+
+  border-radius: 48% 76% 85% 40% / 48% 51% 65% 62%;
+}
+.fourth_brick img {
+  border-radius: 48% 76% 85% 40% / 48% 51% 65% 62%;
+  width: 25em;
+  height: 18em;
+}
+
+/* ------fifth_brick------ */
+.fifth_brick {
+  margin-left: 10em;
+  padding: 1.5em 12em;
+  flex-basis: 41em;
+  border-radius: 40% 32% 51% 93% / 48% 51% 93% 54%;
+}
+.fifth_brick img {
+  margin: 1em 0;
+  width: 40em;
+  height: 18em;
+  border-radius: 40% 32% 51% 93% / 48% 51% 93% 54%;
+}
+
+/* ------sixth_brick------ */
+.sixth_brick {
+  padding: 1.5em 6em;
+  flex-basis: 30em;
+  border-radius: 51% 57% 71% 51% / 48% 51% 93% 54%;
+}
+.sixth_brick img {
+  margin: 1em 0;
+  width: 25em;
+  height: 18em;
+  border-radius: 51% 57% 71% 51% / 48% 51% 93% 54%;
+}
+/* -----------PORTFOLIO SECTION END----------- */
+
+/* -----------MY_VALUES SECTION--START----------- */
+.my_values {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+
+  border-radius: 43% 55% 52% 50% / 76% 50% 49% 47%;
+
+  background-image: url(../images/Wizard_of_Oz/Background/background_hero_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.central_balloon--central_image {
+  margin: 0 auto;
+  padding-top: 4em;
+  width: 80em;
+}
+/* -----------MY_VALUES SECTION--END----------- */
+
+/* -----------MY_SKILLS SECTION--START----------- */
+
+.my_skills {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* -----------CONTACT_SECTION--START----------- */
+
+.contact_form {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* -----------CONTACT_SECTION--END----------- */
