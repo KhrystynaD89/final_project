@@ -1,5 +1,6 @@
 .my_values {
   position: relative;
+  overflow: hidden;
   width: 80vw;
   height: 100vh;
   margin: 0 auto;
@@ -14,70 +15,110 @@
 
   .my_values--central_balloon {
     position: absolute;
+    z-index: 2;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    animation: float 3.5s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
 
     @keyframes float {
-        0% {
-            margin-left: 0;
-            
-        }
-    
-        50% {
-            margin-top: 50px;
-            margin-left: 50px;
-            margin-right: 130px;
+      0% {
+        margin-left: 0;
+      }
 
-        
-        }
-        100% {
-            margin-left: 0;
-            
-        }
+      50% {
+        margin-top: 100px;
+        margin-left: 60px;
+        margin-right: 130px;
+      }
+      100% {
+        margin-left: 0;
+      }
     }
 
     .central_balloon--central_image {
       display: block;
       margin: 0 auto;
       padding-top: 4em;
-      width: 80em;
+      width: 70em;
     }
   }
   .my_values--balloons {
     position: absolute;
+    z-index: 1;
   }
   .balloon_1 {
-    
     top: 0;
     right: 0;
     bottom: 0;
     left: 10rem;
 
-    animation: up 10s ease-in-out infinite;
+    animation: up_1 8s ease-in-out infinite;
 
-    @keyframes up {
-       
-    
-        0% {
-            
-            margin-top: 40%;
-            opacity: 1;
-        }
-        50% {
+    @keyframes up_1 {
+      0% {
+        margin-top: 60%;
+      }
 
-        }
-        100% {
-            margin-top: 10%;
-            opacity: 1;
-        }
+      100% {
+        margin-top: -30%;
+      }
     }
 
     img {
-        width: 33rem;
+      width: 33rem;
+    }
+  }
+  .balloon_2 {
+    top: 0;
+    right: 0rem;
+    bottom: 0;
+    left: 75rem;
+
+    animation: up_2 8s 4s ease-in-out infinite;
+
+    @keyframes up_2 {
+      0% {
+        margin-top: 60%;
+      }
+
+      100% {
+        margin-top: -30%;
+      }
+    }
+
+    img {
+      width: 35rem;
+    }
+  }
+  .balloon_3 {
+    top: 0;
+    right: 0rem;
+    bottom: 0;
+    left: 35rem;
+
+    animation: up_3 12s 8s ease-in-out infinite;
+
+    @keyframes up_3 {
+      0% {
+        margin-top: 60%;
+      }
+
+      100% {
+        margin-top: -30%;
+      }
+    }
+
+    img {
+      width: 40rem;
     }
   }
 
+  .balloon_4 {
+    top: 0;
+    right: 0rem;
+    bottom: 0;
+    left: 120rem;
+  }
 }
