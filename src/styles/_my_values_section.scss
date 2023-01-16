@@ -67,7 +67,7 @@
     }
 
     img {
-      width: 33rem;
+      width: 40rem;
     }
   }
   .balloon_2 {
@@ -76,11 +76,11 @@
     bottom: 0;
     left: 75rem;
 
-    animation: up_2 8s 4s ease-in-out infinite;
+    animation: up_2 14s 4s ease-in-out infinite;
 
     @keyframes up_2 {
       0% {
-        margin-top: 60%;
+        margin-top: 70%;
       }
 
       100% {
@@ -89,20 +89,20 @@
     }
 
     img {
-      width: 35rem;
+      width: 45rem;
     }
   }
   .balloon_3 {
     top: 0;
     right: 0rem;
     bottom: 0;
-    left: 35rem;
+    left: 25rem;
 
-    animation: up_3 12s 8s ease-in-out infinite;
+    animation: up_3 15s 8s ease-in-out infinite;
 
     @keyframes up_3 {
       0% {
-        margin-top: 60%;
+        margin-top: 70%;
       }
 
       100% {
@@ -111,7 +111,7 @@
     }
 
     img {
-      width: 40rem;
+      width: 50rem;
     }
   }
 
@@ -119,6 +119,21 @@
     top: 0;
     right: 0rem;
     bottom: 0;
-    left: 120rem;
+    left: 100rem;
+
+    animation: up_4 12s 8s ease-in-out infinite;
+
+    @keyframes up_4 {
+      0% {
+        margin-top: 70%;
+      }
+
+      100% {
+        margin-top: -30%;
+      }
+    }
+    img {
+      width: 45rem;
+    }
   }
 }
