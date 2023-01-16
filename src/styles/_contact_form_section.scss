@@ -1,0 +1,30 @@
+.contact_form_section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 8rem;
+
+  background-image: url(../images/contact_form_section/characters_image.png);
+  background-position: center bottom;
+  background-size: 55rem;
+  background-repeat: no-repeat;
+
+  .contact_form_brick {
+    box-shadow: inset 5px 0px 50px 20px rgba(63, 63, 63, 0.8),
+      18px 12px 50px -6px #000000;
+
+    width: 75rem;
+    height: 52rem; 
+    margin: 1.5em;
+    background-image: url(../images/brick_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 1.5em 6em;
+    margin: 0 auto;
+    /* I added flex-basis here because I don't want my brick to change width when there are more content in my text section; and with flex-basis width is fixed */
+    border-radius: 37% 29% 29% 32% / 55% 34% 49% 47%;
+    border-radius: 43% 55% 52% 50% / 76% 50% 49% 47%;
+    
+  }
+}
