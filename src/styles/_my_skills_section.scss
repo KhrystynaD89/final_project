@@ -1,0 +1,18 @@
+.my_skills {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+  margin: 0 auto;
+
+  background-image: url(../images/my_skills-section_images/background_forest.png);
+  background-position: 46% 100%;
+  background-repeat: no-repeat;
+  background-size: 175rem 70rem;
+
+  .fears_images {
+    .fears_images--fear {
+      display: inline-block;
+    }
+  }
+}
