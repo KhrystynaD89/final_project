@@ -1,0 +1,83 @@
+.my_values {
+  position: relative;
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  box-shadow: inset 5px 0px 50px 20px rgba(63, 63, 63, 0.8),
+    18px 12px 50px -6px #000000;
+  border-radius: 43% 55% 52% 50% / 76% 50% 49% 47%;
+
+  background-image: url(../images/my_values_section_images/balloon_background_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .my_values--central_balloon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: float 3.5s ease-in-out infinite;
+
+    @keyframes float {
+        0% {
+            margin-left: 0;
+            
+        }
+    
+        50% {
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 130px;
+
+        
+        }
+        100% {
+            margin-left: 0;
+            
+        }
+    }
+
+    .central_balloon--central_image {
+      display: block;
+      margin: 0 auto;
+      padding-top: 4em;
+      width: 80em;
+    }
+  }
+  .my_values--balloons {
+    position: absolute;
+  }
+  .balloon_1 {
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10rem;
+
+    animation: up 10s ease-in-out infinite;
+
+    @keyframes up {
+       
+    
+        0% {
+            
+            margin-top: 40%;
+            opacity: 1;
+        }
+        50% {
+
+        }
+        100% {
+            margin-top: 10%;
+            opacity: 1;
+        }
+    }
+
+    img {
+        width: 33rem;
+    }
+  }
+
+}
