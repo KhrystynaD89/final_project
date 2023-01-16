@@ -11,8 +11,108 @@
   background-size: 175rem 70rem;
 
   .fears_images {
+    position: relative;
+
     .fears_images--fear {
-      display: inline-block;
+      
+      position: absolute;
+      
+    }
+    // change the percentages to rems because positioning in percentages brakes the layout
+    .guardian {
+      position: absolute;
+      top: 60rem;
+      left: 85rem;
+      bottom: 20%;
+      right: 0;
+    }
+    .fear_1 {
+        position: absolute;
+        top: 108%;
+        left: 37%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 30rem;
+        }
+    }
+
+    .fear_2 {
+        position: absolute;
+        top: 100%;
+        left: 40%;
+        
+     }
+    
+    .fear_3 {
+        position: absolute;
+        top: 10%;
+        left: 18%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 33rem;
+        }
+    }
+    .fear_4 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 25rem;
+        }
+    }
+
+    .fear_5 {
+        position: absolute;
+        top: 89%;
+        left: 59%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 30rem;
+        }
+    }
+    .fear_6 {
+        position: absolute;
+        top: 218%;
+        left: 7%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 30rem;
+        }
+    }
+
+    .fear_7 {
+        position: absolute;
+        top: 219%;
+        left: 24%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 27rem;
+        }
+    }
+
+    .fear_8 {
+        position: absolute;
+        top: 213%;
+        left: 72%;
+        bottom: 0;
+        right: 0;
+
+        img {
+            width: 32rem;
+        }
     }
   }
 }
