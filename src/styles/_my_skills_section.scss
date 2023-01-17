@@ -19,14 +19,34 @@
       transition: 2s;
     }
     // change the percentages to rems because positioning in percentages brakes the layout
-
+    .text {
+      position: absolute;
+      top: 63rem;
+      left: 85rem;
+      width: 22rem;
+      p {
+        padding: 0.5em;
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: bold;
+        color: #dba700;
+        text-shadow: 0.5px 0.5px rgba(235, 86, 86, 0.8);
+        border-radius: 20px;
+        box-shadow: inset 5px 0px 50px 7px rgba(63, 63, 63, 0.8),
+          18px 12px 50px -6px #000000;
+      }
+    }
     .guardian {
       position: absolute;
-      top: 60rem;
-      left: 85rem;
+      top: 55rem;
+      left: 105rem;
       bottom: 20%;
       right: 0;
+      img {
+        width: 20rem;
+      }
     }
+
     .guardian:hover ~ .fears_images--fear {
       display: none;
     }
@@ -35,7 +55,7 @@
     }
     .fear_1 {
       position: absolute;
-      top: 35rem;
+      top: 32rem;
       left: 70rem;
       bottom: 0;
       right: 0;
@@ -50,13 +70,19 @@
       opacity: 0;
       transition: 0.5s;
       p {
+        padding: 0.5rem;
         font-size: 4rem;
         font-weight: bold;
+        color: #dba700;
+        text-shadow: 0.5px 0.5px rgba(235, 86, 86, 0.8);
+        border-radius: 20px;
+        box-shadow: inset 5px 0px 50px 7px rgba(63, 63, 63, 0.8),
+          18px 12px 50px -6px #000000;
       }
     }
 
     .text_1 {
-      width: 5rem;
+     
       top: 40rem;
       left: 80rem;
     }
@@ -74,7 +100,7 @@
 
     .fear_3 {
       position: absolute;
-      top: 6rem;
+      top: 2rem;
       left: 35rem;
       bottom: 0;
       right: 0;
@@ -89,7 +115,7 @@
     }
     .fear_4 {
       position: absolute;
-      top: 7rem;
+      top: 3rem;
       left: 89rem;
       bottom: 0;
       right: 0;
@@ -120,7 +146,7 @@
     }
     .fear_6 {
       position: absolute;
-      top: 64rem;
+      top: 55rem;
       left: 15rem;
       bottom: 0;
       right: 0;
@@ -130,13 +156,13 @@
       }
     }
     .text_6 {
-        top: 64rem;
+      top: 53rem;
       left: 20rem;
     }
 
     .fear_7 {
       position: absolute;
-      top: 63rem;
+      top: 53rem;
       left: 45rem;
       bottom: 0;
       right: 0;
@@ -146,13 +172,13 @@
       }
     }
     .text_7 {
-        top: 63rem;
+      top: 53rem;
       left: 50rem;
     }
 
     .fear_8 {
       position: absolute;
-      top: 60rem;
+      top: 50rem;
       left: 135rem;
       bottom: 0;
       right: 0;
@@ -162,7 +188,7 @@
       }
     }
     .text_8 {
-        top: 60rem;
+      top: 60rem;
       left: 135rem;
     }
   }

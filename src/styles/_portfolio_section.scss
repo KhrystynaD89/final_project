@@ -1,126 +1,131 @@
 //-----------PORTFOLIO SECTION START-----------
 
 .portfolio {
-    width: 100vw;
-    height: 100vh;
-    padding-top: 1.5em;
-  
-    /* background-image: url(../images/Wizard_of_Oz/Background/poppies_background1.png);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 1.5em;
+
+  /* background-image: url(../images/Wizard_of_Oz/Background/poppies_background1.png);
    
     background-position: left;
     background-repeat: no-repeat; */
-    .portfolio_container {
-        border-radius: 43% 49% 74% 35% / 31% 40% 33% 47%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+  .portfolio_container {
+    border-radius: 43% 49% 74% 35% / 31% 40% 33% 47%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    .portfolio_container--brick {
+      /* Don't give height and width to a flexbox child or the content (images and text) will not fit inside this boxy */
+
+      box-shadow: inset 5px 0px 50px 20px rgba(63, 63, 63, 0.8),
+        18px 12px 50px -6px #000000;
+
+      /* The first two values set the offset of the shadow, the third value is the amount of blur and the last value is the spread of the shadow. */
+      margin: 1.5em;
+      background-image: url(../images/brick_background.jpeg);
+
+      img {
+        display: block;
+        margin: 1em 0;
+      }
+      .btn {
+        background-color: rgb(0, 0, 0, 0.4);
+        margin-left: 1.5em;
+        padding: 0.5em;
+        font-size: 1.5rem;
         text-align: center;
-        margin: 0 auto;
-        width: 90%;
-        .portfolio_container--brick {
-            /* Don't give height and width to a flexbox child or the content (images and text) will not fit inside this boxy */
-          
-            box-shadow: inset 5px 0px 50px 20px rgba(63, 63, 63, 0.8),
-              18px 12px 50px -6px #000000;
-          
-            /* The first two values set the offset of the shadow, the third value is the amount of blur and the last value is the spread of the shadow. */
-            margin: 1.5em;
-            background-image: url(../images/brick_background.jpeg);
-            // h3 {
-            //     font-family: "Cabin Sketch", cursive;
-            //     font-size: 2.5rem;
-            //     display: inline-block;
-            //   }
-              img {
-                display: block;
-                margin: 1em 0;
-              }
-          }
-          .middle_brick {
-            padding: 1.5em 8em 1em;
-            
-            img {
-              margin: 0 auto;
-              
-              width: 10em;
-             
-              }
-              h3 {
-                width: 6.5em;
-              }
-          
-            border-radius: 35% 50% 85% 40% / 48% 51% 65% 62%;
-           
-          }
-          .first_brick {
-            padding: 1.5em 6em;
-            margin-left: 10em;
-            flex-basis: 24em;
-            /* I added flex-basis here because I don't want my brick to change width when there are more content in my text section; and with flex-basis width is fixed */
-            border-radius: 37% 29% 29% 32% / 55% 34% 49% 47%;
-            img {
-                margin: 1em 0;
-                width: 25em;
-                height: 18em;
-                border-radius: 37% 29% 29% 32% / 55% 34% 49% 47%;
-              }
-          }
-          .second_brick {
-            padding: 1.5em 12em;
-            flex-basis: 41em;
-            border-radius: 32% 26% 43% 20% / 68% 40% 43% 29%;
-            img {
-                margin: 1em 0;
-                width: 40em;
-                height: 18em;
-                border-radius: 32% 26% 43% 20% / 68% 40% 43% 29%;
-              }
-          }
-          .third_brick {
-            padding: 1.5em 10em;
-            flex-basis: 30em;
-            border-radius: 29% 48% 43% 40% / 88% 51% 65% 62%;
-            img {
-                margin: 1em 0;
-                width: 32em;
-                height: 18em;
-                border-radius: 29% 48% 43% 40% / 88% 51% 65% 62%;
-              }
-          }
-          .fourth_brick {
-            padding: 1.5em 10em;
-            margin-right: 8em;
-          
-            border-radius: 48% 76% 85% 40% / 48% 51% 65% 62%;
-            img {
-                border-radius: 48% 76% 85% 40% / 48% 51% 65% 62%;
-                width: 25em;
-                height: 18em;
-              }
-          }
-          .fifth_brick {
-            margin-left: 10em;
-            padding: 1.5em 12em;
-            flex-basis: 41em;
-            border-radius: 40% 32% 51% 93% / 48% 51% 93% 54%;
-            img {
-                margin: 1em 0;
-                width: 40em;
-                height: 18em;
-                border-radius: 40% 32% 51% 93% / 48% 51% 93% 54%;
-              }
-          }
-          .sixth_brick {
-            padding: 1.5em 6em;
-            flex-basis: 30em;
-            border-radius: 51% 57% 71% 51% / 48% 51% 93% 54%;
-            img {
-                margin: 1em 0;
-                width: 25em;
-                height: 18em;
-                border-radius: 51% 57% 71% 51% / 48% 51% 93% 54%;
-              }
-          }
+        font-weight: bold;
+        color: #dba700;
+        text-shadow: 0.5px 0.5px rgba(235, 86, 86, 0.8);
+        border-radius: 20px;
+        box-shadow: 1px 2px 30px 6px #000000;
+      }
     }
+    .middle_brick {
+      padding: 1.5em 8em 1em;
+
+      img {
+        margin: 0 auto;
+
+        width: 10em;
+      }
+      h3 {
+        width: 6.5em;
+      }
+
+      border-radius: 35% 50% 85% 40% / 48% 51% 65% 62%;
+    }
+    .first_brick {
+      padding: 1.5em 6em;
+      margin-left: 10em;
+      flex-basis: 24em;
+      /* I added flex-basis here because I don't want my brick to change width when there are more content in my text section; and with flex-basis width is fixed */
+      border-radius: 37% 29% 29% 32% / 55% 34% 49% 47%;
+      img {
+        margin: 1em 0;
+        width: 25em;
+        height: 18em;
+        border-radius: 37% 29% 29% 32% / 55% 34% 49% 47%;
+      }
+    }
+    .second_brick {
+      padding: 1.5em 12em;
+      flex-basis: 41em;
+      border-radius: 32% 26% 43% 20% / 68% 40% 43% 29%;
+      img {
+        margin: 1em 0;
+        width: 40em;
+        height: 18em;
+        border-radius: 32% 26% 43% 20% / 68% 40% 43% 29%;
+      }
+    }
+    .third_brick {
+      padding: 1.5em 10em;
+      flex-basis: 30em;
+      border-radius: 29% 48% 43% 40% / 88% 51% 65% 62%;
+      img {
+        margin: 1em 0;
+        width: 32em;
+        height: 18em;
+        border-radius: 29% 48% 43% 40% / 88% 51% 65% 62%;
+      }
+    }
+    .fourth_brick {
+      padding: 1.5em 10em;
+      margin-right: 8em;
+
+      border-radius: 48% 76% 85% 40% / 48% 51% 65% 62%;
+      img {
+        border-radius: 48% 76% 85% 40% / 48% 51% 65% 62%;
+        width: 25em;
+        height: 18em;
+      }
+    }
+    .fifth_brick {
+      margin-left: 10em;
+      padding: 1.5em 12em;
+      flex-basis: 41em;
+      border-radius: 40% 32% 51% 93% / 48% 51% 93% 54%;
+      img {
+        margin: 1em 0;
+        width: 40em;
+        height: 18em;
+        border-radius: 40% 32% 51% 93% / 48% 51% 93% 54%;
+      }
+    }
+    .sixth_brick {
+      padding: 1.5em 6em;
+      flex-basis: 30em;
+      border-radius: 51% 57% 71% 51% / 48% 51% 93% 54%;
+      img {
+        margin: 1em 0;
+        width: 25em;
+        height: 18em;
+        border-radius: 51% 57% 71% 51% / 48% 51% 93% 54%;
+      }
+    }
+  }
 }
-  

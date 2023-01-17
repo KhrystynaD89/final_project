@@ -3,51 +3,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- FONT -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <script
+      src="https://kit.fontawesome.com/d768dfed84.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/main.scss" />
     <title>Final Project Portfolio</title>
   </head>
   <body>
     <header>
       <!-- ----------------HERO SECTION--START-------------- -->
-      <section class="hero">
+      <section class="hero" id="home">
         <h1>the wonderful wizard of webDev <span>(WWW)</span></h1>
         <h2>click on us!</h2>
-        
 
         <div class="hero--characters dorothytoto">
           <p class="hero_p dorothy_p">
             Join me on my way to the Emerald city to become the WWW!
           </p>
-          <img
-            src="./images/characters_hero_imgs/dorothytoto.png"
-            alt="anime-styled Dorothy with her dog Toto from Wizard of Oz story"
-          />
+          <a href="#home"
+            ><img
+              src="./images/characters_hero_imgs/dorothytoto.png"
+              alt="anime-styled Dorothy with her dog Toto from Wizard of Oz story"
+          /></a>
         </div>
 
-        <div class="hero--characters scarecrow">
+        <div class="hero--characters scarecrow" id="portfolio">
           <p>Click on me to check out my brains!</p>
-          <img
-            src="./images/characters_hero_imgs/scarecrow.png"
-            alt="scarecrow character from Wizard of Oz story"
-          />
+          <a href="#portfolio"
+            ><img
+              src="./images/characters_hero_imgs/scarecrow.png"
+              alt="scarecrow character from Wizard of Oz story"
+          /></a>
         </div>
         <div class="hero--characters tinwoodman">
           <p>Click on me to look into my heart!</p>
-          <img
-            src="./images/characters_hero_imgs/tinwoodman.png"
-            alt="tin woodman character from Wizard of Oz story"
-          />
+          <a href="#my_values">
+            <img
+              src="./images/characters_hero_imgs/tinwoodman.png"
+              alt="tin woodman character from Wizard of Oz story"
+          /></a>
         </div>
         <div class="hero--characters cowardlylion">
           <p>Click on me to check out my courage!</p>
-          <img
-            src="./images/characters_hero_imgs/cowardlylion.png"
-            alt="cowardly lion character from Wizard of Oz story"
-          />
+          <a href="#my_skills"
+            ><img
+              src="./images/characters_hero_imgs/cowardlylion.png"
+              alt="cowardly lion character from Wizard of Oz story"
+          /></a>
         </div>
       </section>
     </header>
@@ -58,50 +64,51 @@
 
     <main>
       <!-- --------------PORTFOLIO SECTION--START------------ -->
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="portfolio_container">
           <!-- FIRST brick -->
 
           <div class="portfolio_container--brick first_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
             <h3>Project 1</h3>
-            <a href="#" class="btn">Go here</a>
+            <a href="#" class="btn">Go</a>
           </div>
           <!-- SECOND brick -->
           <div class="portfolio_container--brick second_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
             <h3>Project 2</h3>
 
-            <a href="#" class="btn">Go here</a>
+            <a href="#" class="btn">Go</a>
           </div>
           <!-- THIRD brick -->
           <div class="portfolio_container--brick third_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
             <h3>Project 3</h3>
 
-            <a href="#" class="btn">Go here</a>
+            <a href="#" class="btn">Go</a>
           </div>
           <!-- MIDDLE brick -->
           <div class="portfolio_container--brick middle_brick">
             <h3>This is what my brain is capable of!</h3>
-            <img
-              src="./images/characters_hero_imgs/scarecrow.png"
-              alt="cartoonish brain"
-            />
+            <a href="#home"
+              ><img
+                src="./images/characters_hero_imgs/scarecrow.png"
+                alt="cartoonish brain"
+            /></a>
           </div>
           <!-- FOURTH brick -->
           <div class="portfolio_container--brick fourth_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
             <h3>Project 4</h3>
 
-            <a href="#" class="btn">Go here</a>
+            <a href="#" class="btn">Go</a>
           </div>
           <!-- FIFTH brick -->
           <div class="portfolio_container--brick fifth_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
             <h3>Project 5</h3>
 
-            <a href="#" class="btn">Go here</a>
+            <a href="#" class="btn">Go</a>
           </div>
           <!-- SIXTH brick -->
 
@@ -109,14 +116,14 @@
             <img src="./images/placeholder.jpg" alt="some description" />
             <h3>Project 6</h3>
 
-            <a href="#" class="btn">Go here</a>
+            <a href="#" class="btn">Go</a>
           </div>
         </div>
       </section>
       <!-- --------------PORTFOLIO SECTION--END------------ -->
 
       <!-- --------------MY_VALUES SECTION--START---------- -->
-      <section class="my_values">
+      <section class="my_values" id="my_values">
         <div class="my_values--central_balloon">
           <h3 class="first">my values</h3>
 
@@ -158,21 +165,32 @@
             alt="hot air balloon"
           />
         </div>
+
         <div class="my_values--tinwoodman">
-          <img src="./images/characters_hero_imgs/tinwoodman.png" alt="" />
+          <a href="home"
+            ><img
+              src="./images/characters_hero_imgs/tinwoodman.png"
+              alt="tinwoodman"
+          /></a>
           <p>Peak inside my true heart and see my values</p>
         </div>
       </section>
+
       <!-- --------------MY_VALUES SECTION--END------------ -->
 
       <!-- --------------MY_SKILLS SECTION--START------------ -->
-      <section class="my_skills">
+      <section class="my_skills" id="my_skills">
         <div class="fears_images">
+          <div class="text">
+            <p>Hover over me to conquer all the witches!</p>
+          </div>
+
           <div class="guardian">
-            <img
-              src="./images/my_skills-section_images/guardian.gif"
-              alt="madoka magica anime witch character"
-            />
+            <a href="#home">
+              <img
+                src="./images/characters_hero_imgs/cowardlylion.png"
+                alt="cowardly lion"
+            /></a>
           </div>
 
           <div class="fears_images--fear fear_1">
@@ -230,7 +248,9 @@
               alt="madoka magica anime witch character"
             />
           </div>
-          <div class="fears_images--text text_7"><p>Setting Up Projects</p></div>
+          <div class="fears_images--text text_7">
+            <p>Setting Up Projects</p>
+          </div>
 
           <div class="fears_images--fear fear_8">
             <img
@@ -238,7 +258,9 @@
               alt="madoka magica anime witch character"
             />
           </div>
-          <div class="fears_images--text text_8"><p>Communication Skills</p></div>
+          <div class="fears_images--text text_8">
+            <p>Communication Skills</p>
+          </div>
         </div>
       </section>
       <!-- --------------MY_SKILLS SECTION--END------------ -->
@@ -247,44 +269,46 @@
       <section class="contact_form_section">
         <div class="contact_form_brick">
           <h2>Contact WWW!</h2>
-        <!-- form -->
-        <form action="#" method="post">
-          <legend>Enter your details!</legend>
-          <fieldset>
-            <div>
-              <label for="name">Tell WWW who you are</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                placeholder="Please fill in your full name"
-                required
-                minlength="1"
-              />
-            </div>
-            <div>
-              <label for="email">Tell WWW how to contact you</label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="example@example.com"
-                minlength="5"
-              />
-            </div>
-            <div>
-              <label for="message">Write your message here</label>
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Write your message"
-                required
-                minlength="1"
-              ></textarea>
-            </div>
-          </fieldset>
-          <button class="submit-btn" type="submit">Submit</button>
-        </form>
+          <!-- form -->
+          <form action="#" method="post">
+            <legend>Enter your details!</legend>
+            <fieldset>
+              <div>
+                <label for="name">Tell WWW who you are</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Please fill in your full name"
+                  required
+                  minlength="1"
+                />
+              </div>
+              <div>
+                <label for="email">Tell WWW how to contact you</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="example@example.com"
+                  minlength="5"
+                />
+              </div>
+              <div>
+                <label for="message">Write your message here</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Write your message"
+                  required
+                  minlength="1"
+                ></textarea>
+              </div>
+            </fieldset>
+            
+            <button class="submit-btn" type="submit">Submit</button>
+          </form>
+          <i class="fa-brands fa-github"></i>
         </div>
       </section>
 
