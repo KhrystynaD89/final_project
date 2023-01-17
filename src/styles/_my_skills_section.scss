@@ -46,11 +46,7 @@
     }
     .fears_images--text {
       position: absolute;
-      width: 5rem;
-      top: 40rem;
-      left: 80rem;
-      bottom: 0;
-      right: 0;
+
       opacity: 0;
       transition: 0.5s;
       p {
@@ -60,24 +56,20 @@
     }
 
     .text_1 {
-      position: absolute;
       width: 5rem;
       top: 40rem;
       left: 80rem;
-      bottom: 0;
-      right: 0;
-      opacity: 0;
-      transition: 0.5s;
-      p {
-        font-size: 4rem;
-        font-weight: bold;
-      }
     }
 
     .fear_2 {
       position: absolute;
       top: 10rem;
       left: 140rem;
+    }
+
+    .text_2 {
+      top: 15rem;
+      left: 130rem;
     }
 
     .fear_3 {
@@ -91,6 +83,10 @@
         width: 33rem;
       }
     }
+    .text_3 {
+      top: 10rem;
+      left: 35rem;
+    }
     .fear_4 {
       position: absolute;
       top: 7rem;
@@ -101,6 +97,10 @@
       img {
         width: 25rem;
       }
+    }
+    .text_4 {
+      top: 10rem;
+      left: 89rem;
     }
 
     .fear_5 {
@@ -114,6 +114,10 @@
         width: 30rem;
       }
     }
+    .text_5 {
+      top: 23rem;
+      left: 108rem;
+    }
     .fear_6 {
       position: absolute;
       top: 64rem;
@@ -124,6 +128,10 @@
       img {
         width: 30rem;
       }
+    }
+    .text_6 {
+        top: 64rem;
+      left: 20rem;
     }
 
     .fear_7 {
@@ -137,6 +145,10 @@
         width: 27rem;
       }
     }
+    .text_7 {
+        top: 63rem;
+      left: 50rem;
+    }
 
     .fear_8 {
       position: absolute;
@@ -148,6 +160,10 @@
       img {
         width: 32rem;
       }
+    }
+    .text_8 {
+        top: 60rem;
+      left: 135rem;
     }
   }
 }
