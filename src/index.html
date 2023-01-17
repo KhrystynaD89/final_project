@@ -6,13 +6,6 @@
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
 
     <link rel="stylesheet" href="styles/main.scss" />
     <title>Final Project Portfolio</title>
@@ -23,26 +16,26 @@
       <section class="hero">
         <h1>the wonderful wizard of webDev <span>(WWW)</span></h1>
         <h2>Hover over us!</h2>
-        
+
         <div class="hero--characters dorothytoto">
+          <p class="hero_p dorothy_p">
+            Join me on my way to the Emerald city to become the WWW!
+          </p>
           <img
             src="./images/characters_hero_imgs/dorothytoto.png"
             alt="anime-styled Dorothy with her dog Toto from Wizard of Oz story"
           />
         </div>
-        <p class="hero_p dorothy_p">
-          Join me on my way to the Emerald city to become the WWW!
-        </p>
-        
+
         <div class="hero--characters scarecrow">
-          <p>Click on me to check out WWW's brains!</p>
+          <p>Click on me to check out my brains!</p>
           <img
             src="./images/characters_hero_imgs/scarecrow.png"
             alt="scarecrow character from Wizard of Oz story"
           />
         </div>
         <div class="hero--characters tinwoodman">
-          <p>Click on me to look into WWW's heart!</p>
+          <p>Click on me to look into my heart!</p>
           <img
             src="./images/characters_hero_imgs/tinwoodman.png"
             alt="tin woodman character from Wizard of Oz story"
@@ -70,34 +63,42 @@
 
           <div class="portfolio_container--brick first_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
-            <h3>This is H3</h3>
+            <h3>Project 1</h3>
             <a href="#" class="btn">Go here</a>
           </div>
           <!-- SECOND brick -->
           <div class="portfolio_container--brick second_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
-            <h3>THis is H3</h3>
+            <h3>Project 2</h3>
 
             <a href="#" class="btn">Go here</a>
           </div>
           <!-- THIRD brick -->
           <div class="portfolio_container--brick third_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
-            <h3>THis is H3</h3>
+            <h3>Project 3</h3>
 
             <a href="#" class="btn">Go here</a>
+          </div>
+          <!-- MIDDLE brick -->
+          <div class="portfolio_container--brick middle_brick">
+            <h3>This is what my brain is capable of!</h3>
+            <img
+              src="./images/characters_hero_imgs/scarecrow.png"
+              alt="cartoonish brain"
+            />
           </div>
           <!-- FOURTH brick -->
           <div class="portfolio_container--brick fourth_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
-            <h3>THis is H3</h3>
+            <h3>Project 4</h3>
 
             <a href="#" class="btn">Go here</a>
           </div>
           <!-- FIFTH brick -->
           <div class="portfolio_container--brick fifth_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
-            <h3>THis is H3</h3>
+            <h3>Project 5</h3>
 
             <a href="#" class="btn">Go here</a>
           </div>
@@ -105,7 +106,7 @@
 
           <div class="portfolio_container--brick sixth_brick">
             <img src="./images/placeholder.jpg" alt="some description" />
-            <h3>THis is H3</h3>
+            <h3>Project 6</h3>
 
             <a href="#" class="btn">Go here</a>
           </div>
@@ -116,6 +117,8 @@
       <!-- --------------MY_VALUES SECTION--START---------- -->
       <section class="my_values">
         <div class="my_values--central_balloon">
+          <h3 class="first">my values</h3>
+
           <img
             class="central_balloon--central_image"
             src="./images/my_values_section_images/central_balloon.png"
@@ -124,6 +127,7 @@
         </div>
 
         <div class="my_values--balloons balloon_1">
+          <h3>per-pixel accuracy</h3>
           <img
             src="./images/my_values_section_images/balloons/png/balloon1.png"
             alt="hot air balloon"
@@ -131,6 +135,7 @@
         </div>
 
         <div class="my_values--balloons balloon_2">
+          <h3>responsive layout</h3>
           <img
             src="./images/my_values_section_images/balloons/png/balloon5.png"
             alt="hot air balloon"
@@ -138,6 +143,7 @@
         </div>
 
         <div class="my_values--balloons balloon_3">
+          <h3>Works? Don't touch it!</h3>
           <img
             src="./images/my_values_section_images/balloons/png/balloon3.png"
             alt="hot air balloon"
@@ -145,10 +151,15 @@
         </div>
 
         <div class="my_values--balloons balloon_4">
+          <h3>Bug? no - Feature!</h3>
           <img
             src="./images/my_values_section_images/balloons/png/balloon4.png"
             alt="hot air balloon"
           />
+        </div>
+        <div class="my_values--tinwoodman">
+          <img src="./images/characters_hero_imgs/tinwoodman.png" alt="" />
+          <p>Peak inside my true heart and see my values</p>
         </div>
       </section>
       <!-- --------------MY_VALUES SECTION--END------------ -->
@@ -156,7 +167,7 @@
       <!-- --------------MY_SKILLS SECTION--START------------ -->
       <section class="my_skills">
         <div class="fears_images">
-          <div class="fears_images--fear guardian">
+          <div class="guardian">
             <img
               src="./images/my_skills-section_images/guardian.gif"
               alt="madoka magica anime witch character"
@@ -170,12 +181,15 @@
             />
           </div>
 
+          <div class="fears_images--text text_1"><p>HTML</p></div>
+
           <div class="fears_images--fear fear_2">
             <img
               src="./images/my_skills-section_images/fear2.png"
               alt="madoka magica anime witch character"
             />
           </div>
+          <div class="fears_images--text text_2"><p>CSS</p></div>
 
           <div class="fears_images--fear fear_3">
             <img
@@ -183,6 +197,7 @@
               alt="madoka magica anime witch character"
             />
           </div>
+          <div class="fears_images--text text_3">Text</div>
 
           <div class="fears_images--fear fear_4">
             <img
@@ -190,6 +205,7 @@
               alt="madoka magica anime witch character"
             />
           </div>
+          <div class="fears_images--text text_4">Text</div>
 
           <div class="fears_images--fear fear_5">
             <img
@@ -197,6 +213,7 @@
               alt="madoka magica anime witch character"
             />
           </div>
+          <div class="fears_images--text text_5">Text</div>
 
           <div class="fears_images--fear fear_6">
             <img
@@ -204,6 +221,7 @@
               alt="madoka magica anime witch character"
             />
           </div>
+          <div class="fears_images--text text_6">Text</div>
 
           <div class="fears_images--fear fear_7">
             <img
@@ -211,6 +229,7 @@
               alt="madoka magica anime witch character"
             />
           </div>
+          <div class="fears_images--text text_8">Text</div>
 
           <div class="fears_images--fear fear_8">
             <img
@@ -218,6 +237,7 @@
               alt="madoka magica anime witch character"
             />
           </div>
+          <div class="fears_images--text text_9">Text</div>
         </div>
       </section>
       <!-- --------------MY_SKILLS SECTION--END------------ -->

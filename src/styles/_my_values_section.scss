@@ -67,7 +67,9 @@
     }
 
     img {
-      width: 40rem;
+      //when you display img as block, it becomes responsive when you change with the size of the layout
+      display: block;
+      width: 30%;
     }
   }
   .balloon_2 {
@@ -89,7 +91,8 @@
     }
 
     img {
-      width: 45rem;
+      display: block;
+      width: 62%;
     }
   }
   .balloon_3 {
@@ -135,5 +138,20 @@
     img {
       width: 45rem;
     }
+  }
+  .my_values--tinwoodman {
+    
+    position: absolute;
+    top: 65rem;
+    right: 0rem;
+    bottom: 0;
+    left: 100rem;
+    
+
+    img {
+      display: block;
+      width: 60%;
+    }
+
   }
 }

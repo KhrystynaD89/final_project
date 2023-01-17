@@ -2,23 +2,24 @@
   width: 100vw;
   height: 100vh;
   position: relative;
-  z-index: -1;
-  margin: 0 auto;
 
+  margin: 0 auto;
+  //hover didn't work because of z-index!
   background-image: url(../images/my_skills-section_images/background_forest.png);
-  background-position: 36% 85%;
+  background-position: 45% 85%;
   background-repeat: no-repeat;
-  background-size: 175rem 70rem;
+  background-size: 150rem 70rem;
 
   .fears_images {
     position: relative;
 
     .fears_images--fear {
-      
       position: absolute;
-      
+      opacity: 1;
+      transition: 2s;
     }
     // change the percentages to rems because positioning in percentages brakes the layout
+
     .guardian {
       position: absolute;
       top: 60rem;
@@ -26,93 +27,127 @@
       bottom: 20%;
       right: 0;
     }
+    .guardian:hover ~ .fears_images--fear {
+      display: none;
+    }
+    .guardian:hover ~ .fears_images--text {
+      opacity: 1;
+    }
     .fear_1 {
-        position: absolute;
-        top: 35rem;
-        left: 70rem;
-        bottom: 0;
-        right: 0;
+      position: absolute;
+      top: 35rem;
+      left: 70rem;
+      bottom: 0;
+      right: 0;
 
-        img {
-            width: 30rem;
-        }
+      img {
+        width: 30rem;
+      }
+    }
+    .fears_images--text {
+      position: absolute;
+      width: 5rem;
+      top: 40rem;
+      left: 80rem;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      transition: 0.5s;
+      p {
+        font-size: 4rem;
+        font-weight: bold;
+      }
+    }
+
+    .text_1 {
+      position: absolute;
+      width: 5rem;
+      top: 40rem;
+      left: 80rem;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      transition: 0.5s;
+      p {
+        font-size: 4rem;
+        font-weight: bold;
+      }
     }
 
     .fear_2 {
-        position: absolute;
-        top: 10rem;
-        left: 140rem;
-        
-     }
-    
-    .fear_3 {
-        position: absolute;
-        top: 6rem;
-        left: 35rem;
-        bottom: 0;
-        right: 0;
+      position: absolute;
+      top: 10rem;
+      left: 140rem;
+    }
 
-        img {
-            width: 33rem;
-        }
+    .fear_3 {
+      position: absolute;
+      top: 6rem;
+      left: 35rem;
+      bottom: 0;
+      right: 0;
+
+      img {
+        width: 33rem;
+      }
     }
     .fear_4 {
-        position: absolute;
-        top: 7rem;
-        left: 89rem;
-        bottom: 0;
-        right: 0;
+      position: absolute;
+      top: 7rem;
+      left: 89rem;
+      bottom: 0;
+      right: 0;
 
-        img {
-            width: 25rem;
-        }
+      img {
+        width: 25rem;
+      }
     }
 
     .fear_5 {
-        position: absolute;
-        top: 23rem;
-        left: 108rem;
-        bottom: 0;
-        right: 0;
+      position: absolute;
+      top: 23rem;
+      left: 108rem;
+      bottom: 0;
+      right: 0;
 
-        img {
-            width: 30rem;
-        }
+      img {
+        width: 30rem;
+      }
     }
     .fear_6 {
-        position: absolute;
-        top: 64rem;
-        left: 15rem;
-        bottom: 0;
-        right: 0;
+      position: absolute;
+      top: 64rem;
+      left: 15rem;
+      bottom: 0;
+      right: 0;
 
-        img {
-            width: 30rem;
-        }
+      img {
+        width: 30rem;
+      }
     }
 
     .fear_7 {
-        position: absolute;
-        top: 63rem;
-        left: 45rem;
-        bottom: 0;
-        right: 0;
+      position: absolute;
+      top: 63rem;
+      left: 45rem;
+      bottom: 0;
+      right: 0;
 
-        img {
-            width: 27rem;
-        }
+      img {
+        width: 27rem;
+      }
     }
 
     .fear_8 {
-        position: absolute;
-        top: 60rem;
-        left: 135rem;
-        bottom: 0;
-        right: 0;
+      position: absolute;
+      top: 60rem;
+      left: 135rem;
+      bottom: 0;
+      right: 0;
 
-        img {
-            width: 32rem;
-        }
+      img {
+        width: 32rem;
+      }
     }
   }
 }
