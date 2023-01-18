@@ -39,7 +39,6 @@
       color: rgba(235, 86, 86, 0.8);
       text-shadow: 0.5px 0.5px rgba(37, 10, 10, 0.8);
     }
-    
 
     h2 {
       font-size: 3.5rem;
@@ -82,11 +81,12 @@
       border: 1px solid var(--main-color);
       width: calc(100% - 0.5rem);
       border-radius: 10px;
+      transition: 0.2s linear;
     }
 
     input:focus,
     textarea:focus {
-      outline-color: blue;
+      outline-color: rgb(62, 146, 80);
     }
     .submit-btn {
       margin: 0 auto;
@@ -102,6 +102,9 @@
       border-radius: 20px;
       box-shadow: inset 5px 0px 50px 7px rgba(63, 63, 63, 0.8),
         18px 12px 50px -6px #000000;
+    }
+    .submit-btn:hover {
+      transform: translate(-2px, -2px) scale(1.2);
     }
   }
 }

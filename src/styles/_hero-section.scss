@@ -19,13 +19,11 @@
   .dorothytoto {
     top: 45%;
     left: 65%;
-    
   }
   .dorothytoto {
     width: 50rem;
   }
 
- 
   //-----------SCARECROW-IMG-----------
   .scarecrow {
     top: 30%;
@@ -52,6 +50,12 @@
   }
 
   @media (min-width: 590px) {
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
     //-----------DOROTHYTOTO-IMG-----------
     .dorothytoto {
       top: 45%;
@@ -69,6 +73,9 @@
       width: 90%;
     }
     //-----------TINWOODMAN-IMG-----------
+    .menu {
+      display: none;
+    }
     .tinwoodman {
       top: 50%;
     }
@@ -79,6 +86,22 @@
     }
     .cowardlylion img {
       width: 20%;
+    }
+
+    .hero h1 {
+      top: 20%;
+      left: 17rem;
+      font-size: 2rem;
+    }
+
+    .hero h2 {
+      top: 16rem;
+      left: 75rem;
+      font-size: 5rem;
+    }
+
+    .hero--characters p {
+      display: none;
     }
   }
 
@@ -111,18 +134,32 @@
     .cowardlylion img {
       width: 25%;
     }
+    .hero--characters p {
+      display: none;
+    }
+
+    .hero h1 {
+      top: 5rem;
+      left: 17rem;
+      font-size: 2rem;
+    }
+
+    .hero h2 {
+      top: 16rem;
+      left: 75rem;
+      font-size: 5rem;
+    }
   }
 
   @media (min-width: 1200px) {
+   
     //-----------DOROTHYTOTO-IMG-----------
     .dorothytoto {
       top: 45%;
       left: 28%;
-      
     }
     .dorothytoto img {
       width: 84%;
-      
     }
     //-----------SCARECROW-IMG-----------
     .scarecrow {
@@ -148,8 +185,35 @@
     .cowardlylion img {
       width: 37%;
     }
+    .hero--characters p {
+      display: block;
+    }
+
+    .menu {
+      padding: 0.5rem 3em;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content:space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      
+      .left_side_menu {
+        img {
+          width: 12rem;
+        }
+        .cowardlylion_menu {
+          width: 9rem;
+        }
+      }
+      .right_side_menu {
+        img {
+          width: 15rem;
+        }
+      }
+    }
   }
 }
 //--------------HERO SECTION--END------------
-
-
